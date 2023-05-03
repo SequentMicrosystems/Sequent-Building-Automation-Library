@@ -7,11 +7,11 @@ Go to **Tools**>>**Manage Libraries..** menu and search for *SM_BAS* and click i
 ### Manual install
 To download click <>Code > [Download ZIP](https://github.com/SequentMicrosystems/Sequent-Building-Automation-Library/archive/refs/heads/main.zip) button from the main [page](https://github.com/SequentMicrosystems/Sequent-Building-Automation-Library), rename the uncompressed folder to "SM_Building_Automation" 
 and copy to the libraries subdirectory of your sketchbook directory ("This PC > Documents > Arduino > libraries" for a Windows PC
- or "Home > arduino > libraries" on Linux PC). Now launch the Arduino environment. If you open the Sketch > Include Library menu, you should see Sequent Home Automation HAT inside. 
- The library will be compiled with sketches that use it. Open an arduino sketch, go to File > Examples > Sequent Building Automation HAT > and chose your example to run.
+ or "Home > arduino > libraries" on Linux PC). Now launch the Arduino environment. If you open the Sketch > Include Library menu, you should see SM_BAS inside. 
+ The library will be compiled with sketches that use it. Open an arduino sketch, go to File > Examples > SM_BAS > and chose your example to run.
 
 ## Usage
-There are three ways to control the Home Automation Card from the Arduino environment.
+There are three ways to control the Building Automation Card from the Arduino environment.
 
 ### Method 1: Using any Arduino controller
 You can use this method with any Arduino card with an I2C port by connecting I2C-SDA, I2C-SCL, +5V and GND, as shown in the following table.
